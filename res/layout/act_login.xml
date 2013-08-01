@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="top|center"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginTop="120dp"
+    android:orientation="vertical" >
+    
+    
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="移动能耗管理系统"
+        android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/login_et_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="用户名" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/login_et_pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:password="true"
+        android:hint="密    码" />
+
+    <Button
+        android:id="@+id/login_btn_login"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="登入" />
+
+</LinearLayout>
