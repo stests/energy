@@ -81,6 +81,7 @@ public class Act_Login extends Activity {
 			    		intent.setClass(Act_Login.this, Act_Main.class);
 			    		startActivity(intent);
 			    	}
+			    	proDialog.dismiss();
 			    }
 			    public void onFailure(Throwable e, String response) {
 			    	Toast.makeText(Act_Login.this, "登陆失败:\n1.请检查您网络连接.\n2.请联系我们.!",

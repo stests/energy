@@ -32,8 +32,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:password="true"
-        android:hint="密    码" />
+        android:hint="密  码"
+        android:password="true" />
 
     <Button
         android:id="@+id/login_btn_login"

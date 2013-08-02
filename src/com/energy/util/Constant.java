@@ -1,10 +1,16 @@
 package com.energy.util;
 
-import android.os.Environment;
+import java.util.List;
 
 import com.energy.bean.LoginResult;
 
 public class Constant {
 	public static LoginResult loginResult; 
-	public static String dbpath = "/data"+ Environment.getDataDirectory().getAbsolutePath() + "/energy.s3db";
+	public static String dbpath = "/energy.s3db";
+	public static String viewType = "";
+	public static String grade = "";
+	
+	
+	public static List search;
+	
 }

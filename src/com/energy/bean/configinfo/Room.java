@@ -1,6 +1,8 @@
 package com.energy.bean.configinfo;
 
-public class Room {
+import java.io.Serializable;
+
+public class Room implements Serializable{
 	private String province;
 	private String city;
 	private String county;

@@ -122,10 +122,10 @@ public final class R {
 		public static final int abs__bright_foreground_disabled_holo_light = 0x7f060005;
 		public static final int abs__bright_foreground_holo_dark = 0x7f060002;
 		public static final int abs__bright_foreground_holo_light = 0x7f060003;
-		public static final int abs__primary_text_disable_only_holo_dark = 0x7f060006;
-		public static final int abs__primary_text_disable_only_holo_light = 0x7f060007;
-		public static final int abs__primary_text_holo_dark = 0x7f060008;
-		public static final int abs__primary_text_holo_light = 0x7f060009;
+		public static final int abs__primary_text_disable_only_holo_dark = 0x7f060007;
+		public static final int abs__primary_text_disable_only_holo_light = 0x7f060008;
+		public static final int abs__primary_text_holo_dark = 0x7f060009;
+		public static final int abs__primary_text_holo_light = 0x7f06000a;
 	}
 	public static final class dimen {
 		public static final int abs__action_bar_default_height = 0x7f070001;
@@ -301,7 +301,7 @@ public final class R {
 		public static final int abs__textButton = 0x7f040013;
 		public static final int abs__title = 0x7f04001b;
 		public static final int abs__up = 0x7f04000b;
-		public static final int action_settings = 0x7f040043;
+		public static final int action_settings = 0x7f040046;
 		public static final int disableHome = 0x7f040009;
 		public static final int edit_query = 0x7f040026;
 		public static final int homeAsUp = 0x7f040006;
@@ -339,8 +339,8 @@ public final class R {
 		public static final int abs__search_dropdown_item_icons_2line = 0x7f030012;
 		public static final int abs__search_view = 0x7f030013;
 		public static final int abs__simple_dropdown_hint = 0x7f030014;
-		public static final int sherlock_spinner_dropdown_item = 0x7f03001b;
-		public static final int sherlock_spinner_item = 0x7f03001c;
+		public static final int sherlock_spinner_dropdown_item = 0x7f03001a;
+		public static final int sherlock_spinner_item = 0x7f03001b;
 	}
 	public static final class menu {
 		public static final int main = 0x7f0b0000;

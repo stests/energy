@@ -686,10 +686,11 @@ containing a value of this type.
         public static final int abs__bright_foreground_disabled_holo_light=0x7f060005;
         public static final int abs__bright_foreground_holo_dark=0x7f060002;
         public static final int abs__bright_foreground_holo_light=0x7f060003;
-        public static final int abs__primary_text_disable_only_holo_dark=0x7f060006;
-        public static final int abs__primary_text_disable_only_holo_light=0x7f060007;
-        public static final int abs__primary_text_holo_dark=0x7f060008;
-        public static final int abs__primary_text_holo_light=0x7f060009;
+        public static final int abs__primary_text_disable_only_holo_dark=0x7f060007;
+        public static final int abs__primary_text_disable_only_holo_light=0x7f060008;
+        public static final int abs__primary_text_holo_dark=0x7f060009;
+        public static final int abs__primary_text_holo_light=0x7f06000a;
+        public static final int gray=0x7f060006;
     }
     public static final class dimen {
         /**  Default height of an action bar. 
@@ -959,7 +960,7 @@ containing a value of this type.
         public static final int abs__textButton=0x7f040013;
         public static final int abs__title=0x7f04001b;
         public static final int abs__up=0x7f04000b;
-        public static final int action_settings=0x7f040043;
+        public static final int action_settings=0x7f040046;
         public static final int config_btn_getconfig=0x7f040032;
         public static final int disableHome=0x7f040009;
         public static final int edit_query=0x7f040026;
@@ -979,12 +980,15 @@ containing a value of this type.
         public static final int room_btn_search=0x7f040042;
         public static final int room_et_key=0x7f040041;
         public static final int room_sp_grade=0x7f040040;
+        public static final int scrollView1=0x7f040044;
         public static final int showCustom=0x7f040008;
         public static final int showHome=0x7f040005;
         public static final int showTitle=0x7f040007;
         public static final int tabMode=0x7f040003;
         public static final int textView1=0x7f040033;
         public static final int useLogo=0x7f040004;
+        public static final int view_ll_content=0x7f040045;
+        public static final int view_sp_zhibiao=0x7f040043;
         public static final int wrap_content=0x7f040000;
     }
     public static final class integer {
@@ -1015,11 +1019,10 @@ containing a value of this type.
         public static final int act_config=0x7f030015;
         public static final int act_login=0x7f030016;
         public static final int act_main=0x7f030017;
-        public static final int act_room=0x7f030018;
-        public static final int act_search=0x7f030019;
-        public static final int act_view=0x7f03001a;
-        public static final int sherlock_spinner_dropdown_item=0x7f03001b;
-        public static final int sherlock_spinner_item=0x7f03001c;
+        public static final int act_search=0x7f030018;
+        public static final int act_view=0x7f030019;
+        public static final int sherlock_spinner_dropdown_item=0x7f03001a;
+        public static final int sherlock_spinner_item=0x7f03001b;
     }
     public static final class menu {
         public static final int main=0x7f0b0000;

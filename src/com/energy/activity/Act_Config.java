@@ -63,10 +63,10 @@ public class Act_Config  extends BaseActivity{
 			    	}else{
 			    		ConfigInfo configinfo = JSON.toJavaObject(JSON.parseObject(response), ConfigInfo.class);
 			    		//数据导入操作
-			    		ConfigService configService = new ConfigService();
+			    		ConfigService configService = new ConfigService(Act_Config.this);
 			    		configService.insertConfig(configinfo);
-			    		
 			    	}
+			    	proDialog.dismiss();
 			    }
 			    public void onFailure(Throwable e, String response) {
 			    	Toast.makeText(Act_Config.this, "登陆失败:\n1.请检查您网络连接.\n2.请联系我们.!",

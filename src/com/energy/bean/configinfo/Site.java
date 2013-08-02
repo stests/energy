@@ -1,6 +1,8 @@
 package com.energy.bean.configinfo;
 
-public class Site {
+import java.io.Serializable;
+
+public class Site implements Serializable{
 	
 	private String province;
 	private String city;

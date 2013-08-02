@@ -10,6 +10,7 @@ import android.view.View.OnClickListener;
 import android.widget.RelativeLayout;
 
 import com.energy.application.MyApplication;
+import com.energy.util.Constant;
 
 public class Act_Main extends BaseActivity implements OnClickListener {
 
@@ -43,9 +44,11 @@ public class Act_Main extends BaseActivity implements OnClickListener {
 		Intent intent = new Intent();
 		switch (v.getId()) {
 		case R.id.main_rl_room:
-			intent.setClass(context, Act_Room.class);
+			Constant.viewType = "list";
+			intent.setClass(context, Act_Search.class);
 			break;
 		case R.id.main_rl_search:
+			Constant.viewType = "graph";
 			intent.setClass(context, Act_Search.class);
 			break;
 		case R.id.main_rl_view:
