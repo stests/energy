@@ -45,12 +45,7 @@ public class ConfigService {
 		if(cursor.getCount()>0){
 			while(cursor.moveToNext())
 			{
-				try {
-					list.add(new String(cursor.getBlob(cursor.getColumnIndex(grade)), "UTF-8"));
-				} catch (UnsupportedEncodingException e) {
-					e.printStackTrace();
-				}
-				
+				list.add(cursor.getString(cursor.getColumnIndex(grade)));
 			}
 		}
 		return list;

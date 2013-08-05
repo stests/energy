@@ -32,6 +32,9 @@
         <activity android:name=".Act_Search" ></activity>
         <activity android:name=".Act_Config" ></activity>
         <activity android:name=".Act_View" ></activity>
+        <activity android:name=".Act_List" ></activity>
+        <activity android:name=".Act_Graph" ></activity>
+        <activity android:name="org.achartengine.GraphicalActivity" />
         
     </application>
 

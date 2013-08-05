@@ -12,5 +12,6 @@ public class Constant {
 	
 	
 	public static List search;
+	public static int zhibiao;
 	
 }
